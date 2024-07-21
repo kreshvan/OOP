@@ -4,4 +4,4 @@ public class Bicycle extends Vehicle {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
- }
+  }

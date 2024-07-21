@@ -15,5 +15,7 @@ public class Main {
         System.out.println();
         car1.check(car1);
         bicycle1.check(bicycle1);
+        truck2.check(truck2);
+        truck2.checkEngine();
      }
 }

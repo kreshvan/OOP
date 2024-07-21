@@ -1,4 +1,4 @@
-public abstract class Vehicle implements CarAndTrack {
+public abstract class Vehicle extends ServiceStation implements Maintainable {
     public String modelName;
     public int wheelsCount;
 
@@ -31,14 +31,4 @@ public abstract class Vehicle implements CarAndTrack {
         System.out.println("проверяем двигатель");
     }
 
-    public void check(Vehicle vehicle) {
-        if (vehicle != null) {
-            System.out.println("Обслуживаем " + vehicle.modelName);
-            for (int i = 0; i < vehicle.wheelsCount; i++) {
-                vehicle.updateTyre();
-            }
-        }
-
-     }
-
-}
+ }
